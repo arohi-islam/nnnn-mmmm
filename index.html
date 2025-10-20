@@ -1,12 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=hh, initial-scale=1.0">
+    <title>Vegetables</title>
+    <!-- tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- desy ui CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- goole font CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .roboto {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+
 </head>
-<body>
-    <h1>gfgdfrbjhyfreytghujbgftdr</h1>
-    <p>I love you hima</p>
+
+<body class="roboto">
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 shadow-sm">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="-1"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>Product</a></li>
+
+                            <li><a>Services</a></li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                    <img src="img/logo-header.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Product</a></li>
+
+                        <li><a>Services</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <a class="btn">Login</a>
+                    <a class="btn">Register</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section  -->
+
+        <head>
+            <div class="p-10 text-center">
+                <h1 class="text-4xl">Freshness You Can
+                    Count On, Prices You’ll Love!</h1>
+                <p >Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+                    covered every day!</p>
+
+            </div>
+            <div class="text-center flex justify-center items-center">
+                <img class="text-center justify-center items-center" src="img/hero-vegetables.png" alt="">
+            </div>
+        </head>
+    </header>
+    <main>
+      <h1 class="text-3xl">Popular Products</h1>
+      <div class="flex justify-center gap-10">
+        <div class=" bg-gradient-to-r from-blue-500 to-purple-500 rounded-md pt-10 pl-10 pr-10 pb-2">
+          <h1>30% off</h1>
+          <p class="text-2xl">
+            Discover a world of treats, toys, and <br> essentials handpicked for 
+          </p>
+          <button>Buy Now</button>
+          <img class="flex justify-end ml-32" src="img/vegetable-offer.png" alt="">
+        </div>
+        <div class="grid grid-cols-3 gap-5">
+            <!-- card-1 -->
+         <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+         <!-- card-2 -->
+          <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+         <!-- card-3 -->
+          <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+          <!-- card-4 -->
+           <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+           <!-- card5 -->
+            <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+            <!-- card6 -->
+             <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+            <!-- card 7-->
+             <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+            <!-- card 8 -->
+             <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+            <!-- card9 -->
+             <div class="bg-slate-500 flex items-center p-5">
+           <div class="items-center flex">
+            <img src="img/onion.png" alt="">
+           </div>
+          <div>
+            <div class="flex">
+                <i class="fa-solid fa-star"></i>
+                <p>
+                    4.5
+                </p>
+            </div>
+            <p>Onion 1 KG</p>
+            <p>$39.99</p>
+          </div>
+         </div>
+
+
+        </div>
+        <p>i love you hima</p>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
